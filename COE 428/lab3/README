@@ -1,0 +1,26 @@
+1. Overall the lab went great with both insertion sort and merge sort working using the concept of using mycompare and myswap methods. The insertion sort was similar to the first lab in this course.
+
+2. Analysis of insertion sort and merge sort algorithms
+
+Insertion sort:
+
+Best case: O(n)
+(There are n comparisons, 0 swaps, and 0 moves)
+ 
+Worst case: O(n^2)
+(There are n(n-1)/2 comparisons and swaps, and (n-1) moves)
+
+Average case: O(n^2)
+(There are n(n-1)/2 comparisons and swaps, and (n-1) moves, the same as worst case)
+
+MergeSort:  
+
+Best case: O(n logn)
+(There are [n logn] comparisons, 0 swaps, and 0 moves)
+
+Worst case:  O(n logn)
+(There are [n logn] comparisons, [n logn] swaps, and [n logn] moves)
+
+Average case:  O(n logn)
+(There are [n logn] comparisons, [n logn] swaps, and [n logn] moves)
+

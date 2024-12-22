@@ -1,0 +1,20 @@
+Suppose that towers(5, 2, 3) is invoked. 
+
+1. How will the first recursive call to towers() be invoked? Answer this question in the form: of towers(x, y, z) where you give the actual values to the three parameters. 
+
+The call to towers() will be invoked by towers(5,2,3) in the form of towers(x, y, z) where x is the number of disks, which in this example is 5,  y is the starting destination, which here is tower 2 and finally z is the final destination, which is tower 3. 
+
+2. How many recursive calls to towers() will be made before this first recursive call returns to the initial invocation? 
+There would be a total of five recursive calls to towers() that would be made before this first recursive call returns to the initial invocation.
+
+
+3. Once towers(5, 2, 3) have invoked their first recursive call to towers() and this invocation has returned, what will be printed to stdout? (i.e. What actual move will be made by towers(5, 2, 3) ?) 
+Move #5 will be printed to the screen when the first recursive call returns. When all recursive calls are done, the move that is printed on the screen is Move #31.
+
+
+4. How will the second recursive call to towers()? Answer this question in the form: of towers(x, y, z) where you give the actual values to the three parameters.
+11 recursive calls to towers() would be invoked for the second recursive call. The second recursive call to towers() would be invoked by towers (x, y, z) where x is the number of disks, y is the starting tower and z is the final tower. When towers(8, 1, 2) are invoked it can be observed that 255 lines of code will be printed to stdout when tower(8, 1, 2) is invoked
+
+Overview of lab:
+The lab works well and meets all requirements for part 1 and 2.
+

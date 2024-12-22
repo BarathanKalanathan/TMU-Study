@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int
+main (void)
+{
+double Gender
+double Male 
+double Female
+double Age
+double RHR
+double F
+
+printf ("Enter Male or Female?");
+
+scanf ("%lf," & Gender);
+
+
+
+
+

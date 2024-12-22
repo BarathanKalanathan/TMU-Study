@@ -1,0 +1,2 @@
+To change part 1 of the lab to allow for self-balancing stand-alone tags an additional check could be made. If the tag ends with a '/' which follows with the final >, then it is a stand-alone tag. As a result this stand alone tag does not need to push the tag onto the stack or pop it out of the stack.
+

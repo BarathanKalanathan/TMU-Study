@@ -1,0 +1,8 @@
+Summary
+For part 1 of the lab the tutorial went well and the sorting algorithm works as well. The sorting algorith consist of a for loop and if statements where the code would examine two numbers next to each other's indicies and compare which number is bigger, if the samller indicies number is larger then it would switch places with the bigger indicy's number. This would loop until all the numbers in the array gets compared and as a result the array would produce a list of numbers from least to greatest. 
+
+For Part 2 of the lab the tutorial went great producing the correct outputs and the Use argc and argv in main function went successfully. The lab implemented the mySort function in the code to sort new numbers inputed after the Testsort2 input. 
+
+Q1)
+
+I would write mySort() function with two parameters which are int data[] (the data set) and int size (the size of the array). I would call the betterSort(int data[], first, last) function. The parameters inside the function would change the first to 0 as the array starts from indicy 0 and last to arraylegnth-1 since the last element in the array is the array legnth minus 1. As a result the bettersort function would be altered to betterSort(data[], 0, arraylegnth-1).

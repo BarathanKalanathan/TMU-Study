@@ -1,0 +1,32 @@
+|muxModified
+f <= mux2to1:inst2.f
+w0 => mux2to1:inst.w0
+w1 => mux2to1:inst.w1
+s[0] => mux2to1:inst.S
+s[0] => mux2to1:inst1.S
+s[1] => mux2to1:inst2.S
+w2 => mux2to1:inst1.w0
+w3 => mux2to1:inst1.w1
+
+
+|muxModified|mux2to1:inst2
+w0 => f~0.DATAB
+w1 => f~0.DATAA
+S => f~0.OUTPUTSELECT
+f <= f~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxModified|mux2to1:inst
+w0 => f~0.DATAB
+w1 => f~0.DATAA
+S => f~0.OUTPUTSELECT
+f <= f~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|muxModified|mux2to1:inst1
+w0 => f~0.DATAB
+w1 => f~0.DATAA
+S => f~0.OUTPUTSELECT
+f <= f~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
